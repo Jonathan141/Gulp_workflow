@@ -41,7 +41,7 @@ var Config = {
   rev: {
     src: DIST_DIR + '/**/*.html', // 要替换资源的html页面路径：./dist/*.html
     json_path: REV_DIR + '**/*.json', // html 页面替换静态资源依据清单
-    dist: REV_DIR // 映射清单存放目录：./dist/rev
+    dist: REV_DIR // 映射清单存放目录：./dist/rev 
   }
 };
 
