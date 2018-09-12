@@ -8,8 +8,8 @@ var Config = {
   dist: DIST_DIR,
   dist_files: DIST_FILES,
   html: {
-    dir: SRC_DIR,
-    src: SRC_DIR + '*.html',
+    dir: SRC_DIR + 'page',
+    src: SRC_DIR + '/**/*.html',
     dist: DIST_DIR
   },
   assets: {
@@ -39,7 +39,7 @@ var Config = {
     dist: DIST_DIR + 'images' // images文件build后存放的目录：./dist/images
   },
   rev: {
-    src: DIST_DIR + '*.html', // 要替换资源的html页面路径：./dist/*.html
+    src: DIST_DIR + '/**/*.html', // 要替换资源的html页面路径：./dist/*.html
     json_path: REV_DIR + '**/*.json', // html 页面替换静态资源依据清单
     dist: REV_DIR // 映射清单存放目录：./dist/rev
   }
